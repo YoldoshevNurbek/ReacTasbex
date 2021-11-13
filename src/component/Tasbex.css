@@ -1,0 +1,89 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tasbeh{
+    position: relative;
+    width: 280px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.display{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    background: #95a5a6;
+    bottom: 210px;
+    border-radius:10px ;
+    padding: 0 15px 0 0;
+    font-size: 46px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title{
+    position: absolute;
+    bottom: 260px;
+}
+.title h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Yuji Boku', serif;
+}
+.click{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.click .addBtn{
+    position: absolute;
+    top: 30px;
+    padding: 60px;
+    border-radius: 50%;
+    border: navajowhite;
+}
+.click .clearBtn{
+    position: absolute;
+    left: 50px;
+    padding: 15px;
+    border-radius:50% ;
+    border: navajowhite;
+}
+.form{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+input:focus{
+    outline: none;
+}
+.form input{
+    margin: 0 10px;
+    padding: 10px 0;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #95a5a6;
+}
+.form button{
+    padding: 10px 15px;
+    margin: 15px;
+    text-transform: uppercase;
+    border:1px solid #34495e;
+    background-color: #4a69bd;
+    border-radius: 15px;
+    color: #fff;
+}
+.form h3{
+    text-transform: uppercase;
+}
