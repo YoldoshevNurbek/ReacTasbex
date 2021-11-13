@@ -87,3 +87,28 @@ input:focus{
 .form h3{
     text-transform: uppercase;
 }
+@media screen and (max-width:576px) {
+    .App{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:415px) {
+    .tasbeh{
+        width: 272px;
+        height: 333px;
+    }
+    .title h2{
+        font-size: 24px;
+    }
+    .display{
+        width: 190px;
+        height: 55px;
+    }
+    .click .addBtn{
+        top: 10px;
+        padding: 56px;
+    }
+    .click .clearBtn{
+        left: 67px; 
+    }
+}
